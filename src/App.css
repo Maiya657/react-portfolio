@@ -1,0 +1,29 @@
+.container {
+  width: 950px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.images {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  break-inside: avoid;
+}
+
+button:active,
+.active {
+  background-color: #666;
+  color: #fff;
+}
