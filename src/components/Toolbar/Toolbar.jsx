@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export function Toolbar({ filters, selected, onSelectFilter }) {
   return (
     <div className="buttons">

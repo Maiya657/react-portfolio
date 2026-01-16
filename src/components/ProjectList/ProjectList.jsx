@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export function ProjectList({ projects }) {
   return (
     <div className="images">
